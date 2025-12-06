@@ -66,14 +66,10 @@ To evaluate this intuition by data the following was measured for a dataset of u
 
 $$
 \text{grid dst span for idx knn}
-=
-\frac{1}{n}
+=\frac{1}{n}
 \sum_{i=1}^{n}
 \max_{\substack{H(x_j) \in \mathrm{knn}(H(x_i))}}
-\lVert x_i - x_j \rVert^{2}
--
-\min_{\substack{H(x_j) \in \mathrm{knn}(H(x_i))}}
-\lVert x_i - x_j \rVert^{2}
+\lVert x_i - x_j \rVert^{2}-\min_{\substack{H(x_j) \in \mathrm{knn}(H(x_i))}} \lVert x_i - x_j \rVert^{2}
 $$
 
 Where $H(x_i)$ is the Hilbert index of $x_i$.
