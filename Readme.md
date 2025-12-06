@@ -65,7 +65,7 @@ To evaluate this intuition by data the following was measured for a dataset of u
  For k (= 10) predecessors and successors of each point: What is the span of the distances of these points in 3D. Color points according to the distance - span 
 
 $$
-\text{grid dst span for idx knn}}
+\text{grid dst span for idx knn}
 =
 \frac{1}{n}
 \sum_{i=1}^{n}
