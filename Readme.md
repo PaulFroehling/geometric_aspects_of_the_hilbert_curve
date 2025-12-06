@@ -17,12 +17,7 @@ To measure the aspect of preserving neighborhoods in indices for points lying cl
 
 $$
 knn\_idx\_range\_span
-= \frac{1}{n} \sum_{i=1}^{n}
-\left(
-\max_{x_j \in \mathrm{knn}(x_i)} H(x_j)
--
-\min_{x_j \in \mathrm{knn}(x_i)} H(x_j)
-\right)
+=\frac{1}{n} \sum_{i=1}^{n} \max_{x_j \in \mathrm{knn}(x_i)} H(x_j)-\min_{x_j \in \mathrm{knn}(x_i)} H(x_j)
 $$
 
 $H(x_j)$ is the Hilbert index of the j-th neighbor of the datapoint $x_i$.
