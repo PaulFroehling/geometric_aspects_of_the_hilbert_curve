@@ -22,7 +22,7 @@ $$
 
 $H(x_j)$ is the Hilbert index of the j-th neighbor of the datapoint $x_i$.
 
-Computing a heatmap based on this measure shows that there are certain axes/areas where this Hilbert curve keeps indices close for neighboring points (dark areas), while for others indices for neighboring points are far apart (light/yellow areas).
+Computing a heatmap based on this measure shows that there are certain axes/areas where the Hilbert curve keeps indices close for neighboring points (dark areas), while for others indices for neighboring points are far apart (light/yellow areas).
 
 <img src="images/heatmap.png" style="max-width: 50%; height: auto;">
 
@@ -65,7 +65,7 @@ To evaluate this intuition by data the following was measured for a dataset of u
  For k (= 10) predecessors and successors of each point: What is the span of the distances of these points in 3D. Color points according to the distance - span 
 
 $$
-\mathrm{grid\_dst\_span\_for\_idx\_knn}
+\text{grid dst span for idx knn}}
 =
 \frac{1}{n}
 \sum_{i=1}^{n}
@@ -78,7 +78,7 @@ $$
 \right)
 $$
 
- Where $H(x_i)$ is the Hilbert index of $x_i$.
+Where $H(x_i)$ is the Hilbert index of $x_i$.
 
 The heatmap shows that points near the void boundary exhibit larger spatial distance ranges among their nearest index-space neighbors as predicted by the former plot.
 
