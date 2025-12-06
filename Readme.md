@@ -69,13 +69,11 @@ $$
 =
 \frac{1}{n}
 \sum_{i=1}^{n}
-\left(
 \max_{\substack{H(x_j) \in \mathrm{knn}(H(x_i))}}
-\left\lVert x_i - x_j \right\rVert^{2}
+\lVert x_i - x_j \rVert^{2}
 -
 \min_{\substack{H(x_j) \in \mathrm{knn}(H(x_i))}}
-\left\lVert x_i - x_j \right\rVert^{2}
-\right)
+\lVert x_i - x_j \rVert^{2}
 $$
 
 Where $H(x_i)$ is the Hilbert index of $x_i$.
