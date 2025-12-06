@@ -11,7 +11,7 @@ The Hilbert curve exhibits regions where different segments collide or overlap, 
 
 The following graphic shows areas (red) where indices of the 2D Hilbert curve are far apart for neighboring points.
 
-<img src="images/heatmap_intuition.png" style="max-width: 10%; height: auto;">
+<img src="images/heatmap_intuition.png" style="width: 40%; height: auto;">
 
 To measure the aspect of preserving neighborhoods in indices for points lying close by in the dataset, I have computed average index span for the k-nearest-neighbors of each point. 
 
