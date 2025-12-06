@@ -15,10 +15,9 @@ The following graphic shows areas (red) where indices of the 2D Hilbert curve ar
 
 To measure the aspect of preserving neighborhoods in indices for points lying close by in the dataset, I have computed average index span for the k-nearest-neighbors of each point. 
 
-
 $$
-\operatorname{knn\_idx\_range\_span}
-= \frac{1}{n} \sum_{i=1}^{n} \cdots
+\text{knn idx range span}
+=\frac{1}{n} \sum_{i=1}^{n} \max_{x_j \in \mathrm{knn}(x_i)} H(x_j)-\min_{x_j \in \mathrm{knn}(x_i)} H(x_j)
 $$
 
 $H(x_j)$ is the Hilbert index of the j-th neighbor of the datapoint $x_i$.
