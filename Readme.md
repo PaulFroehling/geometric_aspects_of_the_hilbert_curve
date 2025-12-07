@@ -3,7 +3,7 @@ The Hilbert curve is a space filling curve, widely used for indexing data. The b
 
 This repository analyses three aspects of the Hilbert curve with respect to data indexing:
 1. Indexing Data With Different Degrees of Isotropy Under Rotations of the S03 Symmetry Group
-2. Regions with different qualities for preserving neighborhoods due to geometrical invariants
+2. Regions With Different Qualities for Preserving Neighborhoods Due to Geometrical Invariants
 3. Topological Ignorance: How Voids Decrease the Performance of the Hilbert Curve
 
 
@@ -37,7 +37,7 @@ Both the geometry and orientation of the data strongly affect index performance.
 <img src="images/isotropy_experiment.png" style="max-width: 50%; height: auto;">
 </p>
 
-## 2.Regions with different qualities for preserving neighborhoods due to geometrical invariants
+## 2.Regions With Different Qualities for Preserving Neighborhoods Due to Geometrical Invariants
 Since the degree of isotropy for gaussian clusters highly influences the indexing performance of the Hilbert curve, the thought arises that the Hilbert curve does not work equally well everywhere when it comes to preserving locality.
 The Hilbert curve exhibits regions where different segments collide or overlap, leading to local discontinuities in the index mapping.In those areas, the preservation of locality is lower than in others. 
 
